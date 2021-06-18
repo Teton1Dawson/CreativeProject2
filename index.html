@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="bigWrap">
+<h1>Welcome to Pokemon Index</h1> 
+<div class="wrapper">
+
+
+<form>
+    <label>Enter a Pokemon:(First Gen Only)</label>
+    <input id="pokemonName" type="text"></input><br/>
+    <input id="pokemonSubmit" type="submit" value="Enter"></input>
+  </form>
+
+  <img id="poke" src="pokemonlogo.jpeg" width="200" height="200">
+</div>
+
+<div class="wrapper2">
+  <div id="pokemonInfo">
+
+      <h1 id="pokemonName1"></h1>
+      <img id="pokemonImage" src=""> 
+      <p id="pokemonType"></p>
+      <div id="measurements"></div>
+      
+  </div>
+
+
+
+  <div id="pokemonAbilities">
+    <div id="abilities"></div>
+    </div>
+  
+</div>
+  <div id="pokemonHabitat">
+
+
+    </div>
+
+<p id = "ability"> </p> <!-- set with json with id getelemetnbyId in JS-->
+
+
+<p id = "habitat"> </p>
+
+</div>
+
+<script src="script.js"> </script>
+</body>
+
+
+</html>

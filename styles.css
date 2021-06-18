@@ -1,0 +1,81 @@
+
+@media only screen and (max-width: 500px) {
+    
+    .wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    form {
+        text-align: center;
+    }
+    
+}
+
+.wrapper2 {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+#habitat-grid {
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#pokemonAbilities {
+    width: 200px;
+    padding-left: 100px;
+}
+
+#habitat {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#habitat-grid > span {
+    border: 1px solid blue;
+    margin: 5px;
+    padding: 1px;
+    justify-content: center;
+}
+
+body {
+    background-color:#FFDE00 !important;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+#poke {
+    width: 100px;
+    height: 100px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+label {
+    color: #3B4CCA;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4  {
+    color: #FF0000;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: #3B4CCA;
+    font-weight: bold;
+}
+
+
+
